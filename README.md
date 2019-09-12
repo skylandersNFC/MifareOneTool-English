@@ -1,4 +1,5 @@
 # MifareOneTool
 A GUI Mifare Classic tool on Windows
+english translation in progress (xavave) 
 
-因作者事务繁忙，软件不再更新。
+<img src="http://averbouch.biz/MifareOneTool.jpg"/>
