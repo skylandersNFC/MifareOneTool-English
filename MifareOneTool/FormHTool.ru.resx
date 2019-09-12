@@ -117,264 +117,33 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="buttonSaveSectorEdit.Text" xml:space="preserve">
-    <value>Изменить сектор (Enter)</value>
-  </data>
-  <data name="Column1.HeaderText" xml:space="preserve">
-    <value>Cектор </value>
-  </data>
-  <data name="comboBox1.Items" xml:space="preserve">
-    <value>KeyAB читать, писать, увеличивать и уменьшать</value>
-    <comment>Previous text: KeyAB读写及增减值</comment>
-  </data>
-  <data name="comboBox1.Items1" xml:space="preserve">
-    <value>[только для чтения] KeyAB для чтения и амортизации / недоступен для записи и добавляет ценность</value>
-    <comment>Previous text: [只读]KeyAB读及减值/不可写及增值</comment>
-  </data>
-  <data name="comboBox1.Items2" xml:space="preserve">
-    <value>[только для чтения] KeyAB для чтения / записи, а также для увеличения или уменьшения</value>
-    <comment>Previous text: [只读]KeyAB读/不可写及增减值</comment>
-  </data>
-  <data name="comboBox1.Items3" xml:space="preserve">
-    <value>KeyB чтение / запись / не сложение и вычитание</value>
-    <comment>Previous text: KeyB读写/不可增减值</comment>
-  </data>
-  <data name="comboBox1.Items4" xml:space="preserve">
-    <value>KeyAB чтение / KeyB запись / без увеличения или уменьшения</value>
-    <comment>Previous text: KeyAB读/KeyB写/不可增减值</comment>
-  </data>
-  <data name="comboBox1.Items5" xml:space="preserve">
-    <value>[Только для чтения] KeyB для чтения / не для записи и увеличения или уменьшения</value>
-    <comment>Previous text: [只读]KeyB读/不可写及增减值</comment>
-  </data>
-  <data name="comboBox1.Items6" xml:space="preserve">
-    <value>KeyAB чтение и ухудшение / KeyB написание и добавленная стоимость</value>
-    <comment>Previous text: KeyAB读及减值/KeyB写及增值</comment>
-  </data>
-  <data name="comboBox1.Items7" xml:space="preserve">
-    <value>[только для чтения] заблокировать сектор</value>
-    <comment>Previous text: [只读]锁死该扇区</comment>
-  </data>
-  <data name="comboBox2.Items" xml:space="preserve">
-    <value>KeyAB читать, писать, увеличивать и уменьшать</value>
-    <comment>Previous text: KeyAB读写及增减值</comment>
-  </data>
-  <data name="comboBox2.Items1" xml:space="preserve">
-    <value>[только для чтения] KeyAB для чтения и амортизации / недоступен для записи и добавляет ценность</value>
-    <comment>Previous text: [只读]KeyAB读及减值/不可写及增值</comment>
-  </data>
-  <data name="comboBox2.Items2" xml:space="preserve">
-    <value>[только для чтения] KeyAB для чтения / записи, а также для увеличения или уменьшения</value>
-    <comment>Previous text: [只读]KeyAB读/不可写及增减值</comment>
-  </data>
-  <data name="comboBox2.Items3" xml:space="preserve">
-    <value>KeyB чтение / запись / не сложение и вычитание</value>
-    <comment>Previous text: KeyB读写/不可增减值</comment>
-  </data>
-  <data name="comboBox2.Items4" xml:space="preserve">
-    <value>KeyAB чтение / KeyB запись / без увеличения или уменьшения</value>
-    <comment>Previous text: KeyAB读/KeyB写/不可增减值</comment>
-  </data>
-  <data name="comboBox2.Items5" xml:space="preserve">
-    <value>[Только для чтения] KeyB для чтения / не для записи и увеличения или уменьшения</value>
-    <comment>Previous text: [只读]KeyB读/不可写及增减值</comment>
-  </data>
-  <data name="comboBox2.Items6" xml:space="preserve">
-    <value>KeyAB чтение и ухудшение / KeyB написание и добавленная стоимость</value>
-    <comment>Previous text: KeyAB读及减值/KeyB写及增值</comment>
-  </data>
-  <data name="comboBox2.Items7" xml:space="preserve">
-    <value>[только для чтения] заблокировать сектор</value>
-    <comment>Previous text: [只读]锁死该扇区</comment>
-  </data>
-  <data name="comboBox3.Items" xml:space="preserve">
-    <value>KeyAB читать, писать, увеличивать и уменьшать</value>
-    <comment>Previous text: KeyAB读写及增减值</comment>
-  </data>
-  <data name="comboBox3.Items1" xml:space="preserve">
-    <value>[только для чтения] KeyAB для чтения и амортизации / недоступен для записи и добавляет ценность</value>
-    <comment>Previous text: [只读]KeyAB读及减值/不可写及增值</comment>
-  </data>
-  <data name="comboBox3.Items2" xml:space="preserve">
-    <value>[только для чтения] KeyAB для чтения / записи, а также для увеличения или уменьшения</value>
-    <comment>Previous text: [只读]KeyAB读/不可写及增减值</comment>
-  </data>
-  <data name="comboBox3.Items3" xml:space="preserve">
-    <value>KeyB чтение / запись / не сложение и вычитание</value>
-    <comment>Previous text: KeyB读写/不可增减值</comment>
-  </data>
-  <data name="comboBox3.Items4" xml:space="preserve">
-    <value>KeyAB чтение / KeyB запись / без увеличения или уменьшения</value>
-    <comment>Previous text: KeyAB读/KeyB写/不可增减值</comment>
-  </data>
-  <data name="comboBox3.Items5" xml:space="preserve">
-    <value>[Только для чтения] KeyB для чтения / не для записи и увеличения или уменьшения</value>
-    <comment>Previous text: [只读]KeyB读/不可写及增减值</comment>
-  </data>
-  <data name="comboBox3.Items6" xml:space="preserve">
-    <value>KeyAB чтение и ухудшение / KeyB написание и добавленная стоимость</value>
-    <comment>Previous text: KeyAB读及减值/KeyB写及增值</comment>
-  </data>
-  <data name="comboBox3.Items7" xml:space="preserve">
-    <value>[только для чтения] заблокировать сектор</value>
-    <comment>Previous text: [只读]锁死该扇区</comment>
-  </data>
-  <data name="comboBox4.Items" xml:space="preserve">
-    <value>[Необратимый] KeyA: запись / AC: только чтение / KeyB: чтение и запись</value>
-    <comment>Previous text: [不可逆]KeyA:A写/AC:A只读/KeyB:A读写</comment>
-  </data>
-  <data name="comboBox4.Items1" xml:space="preserve">
-    <value>KeyA: запись / AC: чтение / запись / KeyB: чтение и запись</value>
-    <comment>Previous text: KeyA:A写/AC:A读写/KeyB:A读写</comment>
-  </data>
-  <data name="comboBox4.Items2" xml:space="preserve">
-    <value>[Необратимый] KeyA: невозможно чтение / запись / AC: только для чтения / KeyB: чтение</value>
-    <comment>Previous text: [不可逆]KeyA:不能读写/AC:A只读/KeyB:A读</comment>
-  </data>
-  <data name="comboBox4.Items3" xml:space="preserve">
-    <value>KeyA: B запись / AC: A только для чтения B чтение / запись / KeyB: B запись</value>
-    <comment>Previous text: KeyA:B写/AC:A只读B读写/KeyB:B写</comment>
-  </data>
-  <data name="comboBox4.Items4" xml:space="preserve">
-    <value>[необратимый] KeyA: запись B / AC: только чтение AB / KeyB: запись B</value>
-    <comment>Previous text: [不可逆]KeyA:B写/AC:AB只读/KeyB:B写</comment>
-  </data>
-  <data name="comboBox4.Items5" xml:space="preserve">
-    <value>KeyA: невозможно чтение / запись / AC: A только для чтения B чтение / запись / KeyB: невозможно чтение или запись</value>
-    <comment>Previous text: KeyA:不能读写/AC:A只读B读写/KeyB:不能读写</comment>
-  </data>
-  <data name="comboBox4.Items6" xml:space="preserve">
-    <value>[Необратимый] KeyA: невозможно чтение / запись / AC: AB только для чтения / KeyB: невозможно чтение или запись</value>
-    <comment>Previous text: [不可逆]KeyA:不能读写/AC:AB只读/KeyB:不能读写</comment>
-  </data>
-  <data name="comboBox4.Items7" xml:space="preserve">
-    <value>[Необратимый] KeyA: невозможно чтение / запись / AC: AB только для чтения / KeyB: невозможно чтение или запись (повторяется?)</value>
-    <comment>Previous text: [不可逆]KeyA:不能读写/AC:AB只读/KeyB:不能读写(重复了?)</comment>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Редактор дампа (бета)</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Список секторов</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>Информация о секторе</value>
-  </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>Просмотр</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Блок 0</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Блок 1</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Блок 2</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Ключ A</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Ключ B</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Условия доступа блока 0</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Условия доступа блока 1</value>
-  </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>Условия доступа блока 2</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>Ключ / ACbits разрешение</value>
-  </data>
-  <data name="labelCurSec.Text" xml:space="preserve">
-    <value>Текущий выбранный сектор: ?</value>
-  </data>
-  <data name="richTextBox1.Lines[0]" xml:space="preserve">
-    <value>Добро пожаловать в интегрированный редактор M1T S50HTool!</value>
-    <comment>Previous text: 欢迎使用M1T的集成编辑器S50HTool！</comment>
-  </data>
-  <data name="richTextBox1.Lines[1]" xml:space="preserve">
-    <value>Откройте файл, пожалуйста, нажмите на файл в верхнем левом углу - открыть или Ctrl + O</value>
-    <comment>Previous text: 打开文件请点左上角文件-打开或Ctrl+O</comment>
-  </data>
-  <data name="richTextBox1.Text" xml:space="preserve">
-    <value>Добро пожаловать в интегрированный редактор дампа!
-Чтобы открыть файл, пожалуйста, нажмите на Файл в верхнем левом углу - Открыть или Ctrl + O
-Вы можете обновить данные вашей карты.</value>
-    <comment>Previous text: 欢迎使用M1T的集成编辑器S50HTool！
-打开文件请点左上角文件-打开或Ctrl+O
-</comment>
-  </data>
-  <data name="保存ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Сохранить</value>
-  </data>
-  <data name="修改UIDToolStripMenuItem.Text" xml:space="preserve">
-    <value>Изменить UID</value>
-  </data>
-  <data name="列出全卡密钥ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Перечислите полный ключ карты</value>
-  </data>
-  <data name="另存为ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Сохранить как</value>
-  </data>
-  <data name="导入MCT格式ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Импортировать формат MCT</value>
-  </data>
-  <data name="导出为MCT格式ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Экспорт в формат MCT</value>
-  </data>
-  <data name="导出密钥字典ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Словарь ключей экспорта</value>
-  </data>
-  <data name="工具ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Инструменты</value>
+  <data name="新建ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Create</value>
   </data>
   <data name="打开ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Открыть</value>
+    <value>Open</value>
   </data>
-  <data name="文件ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Файл</value>
+  <data name="保存ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save</value>
   </data>
-  <data name="新建ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Создать</value>
-  </data>
-  <data name="检查全卡ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Проверка полной карты</value>
-  </data>
-  <data name="检查并纠正全卡ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Проверка и исправление полной карты</value>
+  <data name="另存为ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save as</value>
   </data>
   <data name="退出ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Выход</value>
+    <value>Output</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="新建ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 22</value>
-  </data>
-  <data name="打开ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 22</value>
-  </data>
-  <data name="保存ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 22</value>
-  </data>
-  <data name="另存为ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 22</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 6</value>
-  </data>
-  <data name="退出ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 22</value>
-  </data>
   <data name="文件ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
+    <value>37, 20</value>
+  </data>
+  <data name="文件ToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
   </data>
   <data name="修改UIDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>336, 22</value>
+  </data>
+  <data name="修改UIDToolStripMenuItem.Text" xml:space="preserve">
+    <value>Change UID</value>
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>333, 6</value>
@@ -382,8 +151,14 @@
   <data name="检查全卡ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>336, 22</value>
   </data>
+  <data name="检查全卡ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Check Full Card</value>
+  </data>
   <data name="检查并纠正全卡ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>336, 22</value>
+  </data>
+  <data name="检查并纠正全卡ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Verification and correction of the full map</value>
   </data>
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
     <value>333, 6</value>
@@ -391,11 +166,20 @@
   <data name="导入MCT格式ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>336, 22</value>
   </data>
+  <data name="导入MCT格式ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Import MCT format</value>
+  </data>
   <data name="导出为MCT格式ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>336, 22</value>
   </data>
+  <data name="导出为MCT格式ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Export to MCT format</value>
+  </data>
   <data name="导出密钥字典ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>336, 22</value>
+  </data>
+  <data name="导出密钥字典ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dictionary of Export Keys</value>
   </data>
   <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
     <value>333, 6</value>
@@ -403,11 +187,20 @@
   <data name="列出全卡密钥ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>336, 22</value>
   </data>
+  <data name="列出全卡密钥ToolStripMenuItem.Text" xml:space="preserve">
+    <value>List the full card key</value>
+  </data>
   <data name="工具ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 20</value>
+    <value>47, 20</value>
+  </data>
+  <data name="工具ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tools</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
     <value>670, 24</value>
+  </data>
+  <data name="Column1.HeaderText" xml:space="preserve">
+    <value>Cектор </value>
   </data>
   <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 19</value>
@@ -431,6 +224,9 @@
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>188, 580</value>
   </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Список секторов</value>
+  </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 0</value>
   </data>
@@ -438,7 +234,10 @@
     <value>1, 0, 1, 0</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 15</value>
+    <value>142, 15</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Block 0 access conditions</value>
   </data>
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 16</value>
@@ -456,7 +255,10 @@
     <value>1, 0, 1, 0</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 15</value>
+    <value>140, 15</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Block 1 access conditions</value>
   </data>
   <data name="comboBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 56</value>
@@ -474,7 +276,10 @@
     <value>1, 0, 1, 0</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 15</value>
+    <value>142, 15</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Block 2 access conditions</value>
   </data>
   <data name="comboBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 96</value>
@@ -492,7 +297,10 @@
     <value>1, 0, 1, 0</value>
   </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 15</value>
+    <value>130, 15</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Key / ACbits Resolution</value>
   </data>
   <data name="comboBox4.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 136</value>
@@ -504,13 +312,13 @@
     <value>260, 23</value>
   </data>
   <data name="flowLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 211</value>
+    <value>1, 196</value>
   </data>
   <data name="flowLayoutPanel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>1, 1, 1, 1</value>
   </data>
   <data name="flowLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 348</value>
+    <value>274, 363</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 0</value>
@@ -519,7 +327,10 @@
     <value>1, 0, 1, 0</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 15</value>
+    <value>37, 15</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Key A</value>
   </data>
   <data name="keyAEdit.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 16</value>
@@ -537,7 +348,10 @@
     <value>1, 0, 1, 0</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 15</value>
+    <value>36, 15</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Key B</value>
   </data>
   <data name="keyBEdit.Location" type="System.Drawing.Point, System.Drawing">
     <value>138, 16</value>
@@ -549,7 +363,7 @@
     <value>135, 23</value>
   </data>
   <data name="tableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 169</value>
+    <value>1, 154</value>
   </data>
   <data name="tableLayoutPanel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>1, 1, 1, 1</value>
@@ -564,16 +378,22 @@
     <value>1, 0, 1, 0</value>
   </data>
   <data name="labelCurSec.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 15</value>
+    <value>135, 29</value>
+  </data>
+  <data name="labelCurSec.Text" xml:space="preserve">
+    <value>Current selected sector:?</value>
   </data>
   <data name="buttonSaveSectorEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 16</value>
+    <value>138, 1</value>
   </data>
   <data name="buttonSaveSectorEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>1, 1, 1, 1</value>
   </data>
   <data name="buttonSaveSectorEdit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 27</value>
+    <value>134, 27</value>
+  </data>
+  <data name="buttonSaveSectorEdit.Text" xml:space="preserve">
+    <value>Change Sector (Enter)</value>
   </data>
   <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 1</value>
@@ -582,7 +402,7 @@
     <value>1, 1, 1, 1</value>
   </data>
   <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 44</value>
+    <value>274, 29</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 0</value>
@@ -591,7 +411,10 @@
     <value>1, 0, 1, 0</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 15</value>
+    <value>46, 15</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Block 0</value>
   </data>
   <data name="block0Edit.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 16</value>
@@ -606,7 +429,10 @@
     <value>1, 0, 1, 0</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 15</value>
+    <value>44, 15</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Block 1</value>
   </data>
   <data name="block1Edit.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 56</value>
@@ -621,7 +447,10 @@
     <value>1, 0, 1, 0</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 15</value>
+    <value>46, 15</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Block 2</value>
   </data>
   <data name="block2Edit.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 96</value>
@@ -630,7 +459,7 @@
     <value>1, 1, 1, 1</value>
   </data>
   <data name="flowLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 47</value>
+    <value>1, 32</value>
   </data>
   <data name="flowLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>1, 1, 1, 1</value>
@@ -659,8 +488,8 @@
   <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>278, 580</value>
   </data>
-  <data name="richTextBox1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI, 9.75pt</value>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Sector Information</value>
   </data>
   <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 20</value>
@@ -670,6 +499,11 @@
   </data>
   <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>194, 386</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Welcome to the integrated dump editor!
+To open a file, please click on the File in the upper left corner - Open or Ctrl + O
+You can update your card details.</value>
   </data>
   <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>471, 1</value>
@@ -682,6 +516,9 @@
   </data>
   <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>196, 580</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>View</value>
   </data>
   <data name="tableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>1, 1, 1, 1</value>
@@ -698,5 +535,8 @@
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>1, 1, 1, 1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Dump Editor (beta)</value>
   </data>
 </root>

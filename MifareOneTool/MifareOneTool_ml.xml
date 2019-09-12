@@ -2610,7 +2610,7 @@ MFF08工具给了你一次修复这些损坏卡片的机会。
   <GeneralTexts>
     <StringID>224</StringID>
     <LanguageID>30724</LanguageID>
-    <LanguageText>开始执行检测设备……</LanguageText>
+    <LanguageText>Starting……</LanguageText>
     <Status>1</Status>
   </GeneralTexts>
   <GeneralTexts>

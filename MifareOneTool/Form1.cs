@@ -252,7 +252,7 @@ namespace MifareOneTool
         void list_tag(object sender, DoWorkEventArgs e)
         {
             if (lprocess) { return; }
-            ProcessStartInfo psi = new ProcessStartInfo("nfc-bin/nfc-list.exe");
+            ProcessStartInfo psi = new ProcessStartInfo(@"nfc-bin/nfc-list.exe");
             psi.CreateNoWindow = true;
             psi.UseShellExecute = false;
             psi.RedirectStandardOutput = true;
@@ -528,13 +528,13 @@ namespace MifareOneTool
 
         private void buttonMfoc_Click(object sender, EventArgs e)
         {
-            if (lprocess) { MessageBox.Show("有任务运行中，不可执行。", "设备忙", MessageBoxButtons.OK, MessageBoxIcon.Warning); return; }
-            Form1.ActiveForm.Text = "MifareOne Tool - 运行中";
+            if (lprocess) { MessageBox.Show("When a task is running, it cannot be executed.", "Busy device", MessageBoxButtons.OK, MessageBoxIcon.Warning); return; }
+            Form1.ActiveForm.Text = "MifareOne Tool - Running";
             string rmfd = "Mfoc.tmp";
             string key = "";
             if (Control.ModifierKeys == Keys.Control)
             {
-                string[] ks = Interaction.InputBox("请输入已知的Key，以英文半角逗号分隔。", "请输入已知Key", Properties.Settings.Default.LastTryKey, -1, -1).Trim().Split(',');
+                string[] ks = Interaction.InputBox("Please enter a known Key, separated by a comma.", "Please enter a known key", Properties.Settings.Default.LastTryKey, -1, -1).Trim().Split(',');
                 if (ks.Length > 0)
                 {
                     Properties.Settings.Default.LastTryKey = string.Join(",", ks);
