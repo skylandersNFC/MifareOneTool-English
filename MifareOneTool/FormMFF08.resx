@@ -135,7 +135,7 @@
     <value>0</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>This tool has been slightly modified by nfc-mfclassic. Can be used for 1K size CUID card 0 block repair.
+    <value>This tool has been slightly modified for nfc-mfclassic. Can be used for 1K size CUID card 0 block repair.
 This tool can be repaired: SAK is wrong (not recognized card type), ATQA is wrong (not recognized card size), and there is no way for BCC to write wrong.
 Please prepare the card data file that caused the last 0 damage to the card (if the card is encrypted).</value>
   </data>
@@ -161,7 +161,7 @@ Please prepare the card data file that caused the last 0 damage to the card (if 
     <value>0</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>说明</value>
+    <value>Description</value>
   </data>
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
@@ -185,7 +185,7 @@ Please prepare the card data file that caused the last 0 damage to the card (if 
     <value>4</value>
   </data>
   <data name="buttonClr.Text" xml:space="preserve">
-    <value>清除</value>
+    <value>Clear</value>
   </data>
   <data name="&gt;&gt;buttonClr.Name" xml:space="preserve">
     <value>buttonClr</value>
@@ -209,7 +209,7 @@ Please prepare the card data file that caused the last 0 damage to the card (if 
     <value>1</value>
   </data>
   <data name="buttonLoadKey.Text" xml:space="preserve">
-    <value>加载…</value>
+    <value>load…</value>
   </data>
   <data name="&gt;&gt;buttonLoadKey.Name" xml:space="preserve">
     <value>buttonLoadKey</value>
@@ -257,7 +257,24 @@ Please prepare the card data file that caused the last 0 damage to the card (if 
     <value>2</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>最后一次写卡导致0块损坏的卡数据文件：</value>
+    <value>The last time the card was written resulted in 0 corrupted card data files:
+The
+Translations of the
+ArticleFrequency
+那个
+the
+Definitions of the
+Article
+1
+denoting one or more people or things already mentioned or assumed to be common knowledge.
+what's the matter?
+2
+used to point forward to a following qualifying or defining clause or phrase.
+the fuss that he made of her
+3
+used to make a generalized reference to something rather than identifying a particular instance.
+he taught himself to play the violin
+3 more definitions</value>
   </data>
   <data name="&gt;&gt;label2.Name" xml:space="preserve">
     <value>label2</value>
@@ -284,9 +301,9 @@ Please prepare the card data file that caused the last 0 damage to the card (if 
     <value>1</value>
   </data>
   <data name="buttonKeyWrite.Text" xml:space="preserve">
-    <value>修复写入
-有密码
-CUID卡</value>
+    <value>repair write
+password
+CUID card</value>
   </data>
   <data name="&gt;&gt;buttonKeyWrite.Name" xml:space="preserve">
     <value>buttonKeyWrite</value>
@@ -334,7 +351,7 @@ CUID卡</value>
     <value>1</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>操作</value>
+    <value>operating</value>
   </data>
   <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
     <value>groupBox2</value>
@@ -365,12 +382,10 @@ CUID卡</value>
     <value>0</value>
   </data>
   <data name="logBox.Text" xml:space="preserve">
-    <value>每个人使用CUID卡的时候，总会因不了解或是不经意犯下一些小错误。
-比如使用编辑器修改UID却没有改BCC，SAK=28的卡片解密后的文件直接写入，又或是从S70卡片导入数据写入1K卡却没有更正ATQA。
-MFF08工具给了你一次修复这些损坏卡片的机会。
-------------------------------------------------------------------------
-
-</value>
+    <value>When everyone uses a CUID card, they always make small mistakes because they don't understand or inadvertently.
+For example, if the editor is used to modify the UID but the BCC is not changed, the file decrypted by the SAK=28 card is directly written, or the data is imported from the S70 card to the 1K card but the ATQA is not corrected.
+The MFF08 tool gives you a chance to fix these damaged cards at once.
+-------------------------------------------------- ----------------------</value>
   </data>
   <data name="&gt;&gt;logBox.Name" xml:space="preserve">
     <value>logBox</value>
@@ -394,7 +409,7 @@ MFF08工具给了你一次修复这些损坏卡片的机会。
     <value>0</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>日志</value>
+    <value>Log</value>
   </data>
   <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
     <value>groupBox3</value>
@@ -408,9 +423,9 @@ MFF08工具给了你一次修复这些损坏卡片的机会。
   <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
@@ -418,7 +433,7 @@ MFF08工具给了你一次修复这些损坏卡片的机会。
     <value>1115, 460</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>MFF08 Tool-CUID修复工具</value>
+    <value>MFF08 Tool-CUID Repair Tool</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FormMFF08</value>

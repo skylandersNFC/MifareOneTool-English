@@ -36,7 +36,7 @@ namespace MifareOneTool
                 }
                 else
                 {
-                    Console.Error.WriteLine("GitHub更新失效");
+                    Console.Error.WriteLine("GitHub update is invalid");
                 }
             }
             catch (Exception e)
@@ -62,7 +62,7 @@ namespace MifareOneTool
                 }
                 else
                 {
-                    Console.Error.WriteLine("GitHub更新失效");
+                    Console.Error.WriteLine("GitHub update is invalid");
                 }
             }
             catch (Exception ex)
