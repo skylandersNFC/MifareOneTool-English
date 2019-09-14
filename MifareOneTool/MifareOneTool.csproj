@@ -271,6 +271,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="MifareOneTool_ml.xml" />
+    <Content Include="nfc-bin64\mfcuk_keyrecovery_darkside.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="nfc-bin64\mfoc_x64.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="nfc-bin\collect.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

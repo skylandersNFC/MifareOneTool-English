@@ -566,7 +566,7 @@ namespace MifareOneTool
         void mfoc(object sender, DoWorkEventArgs e)
         {
             if (lprocess) { return; }
-            ProcessStartInfo psi = new ProcessStartInfo("nfc-bin/mfoc.exe");
+            ProcessStartInfo psi = new ProcessStartInfo("nfc-bin64/mfoc_x64.exe");
             string[] args = (string[])e.Argument;
             psi.Arguments = args[1] + " -O \"" + args[0] + "\"";
             psi.CreateNoWindow = true;
@@ -857,8 +857,8 @@ namespace MifareOneTool
         {
             if (lprocess) { MessageBox.Show(Resources.有任务运行中_不可执行, Resources.设备忙, MessageBoxButtons.OK, MessageBoxIcon.Warning); return; }
             ProcessStartInfo psi = new ProcessStartInfo("cmd");
-            psi.Arguments = "/k mfcuk.exe -v 3 -C -R -1 -s 250 -S 250";
-            psi.WorkingDirectory = "nfc-bin";
+            psi.Arguments = "/k mfcuk_keyrecovery_darkside.exe -v 3 -C -R -1 -s 250 -S 250";
+            psi.WorkingDirectory = "nfc-bin64";
             lprocess = true;
             BackgroundWorker b = (BackgroundWorker)sender;
             process = Process.Start(psi);
@@ -1339,7 +1339,7 @@ namespace MifareOneTool
             ProcessStartInfo psi = new ProcessStartInfo("cmd.exe");
             string[] args = (string[])e.Argument;
             psi.WorkingDirectory = "./";
-            psi.Arguments = "/T:0A " + args[2] + @" nfc-bin\mfoc.exe " + args[1] + " -O \"" + args[0] + "\"";
+            psi.Arguments = "/T:0A " + args[2] + @" nfc-bin64\mfoc_x64.exe " + args[1] + " -O \"" + args[0] + "\"";
             lprocess = true;
             BackgroundWorker b = (BackgroundWorker)sender;
             process = Process.Start(psi);
