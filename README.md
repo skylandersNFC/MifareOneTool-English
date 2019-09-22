@@ -2,6 +2,8 @@
 A GUI Mifare Classic tool on Windows<br>
 english translation by xavave<br>
 added : x64 nfcbin <br>
++ mfcuk_keyrecovery_darkside.exe (windows version)<br>
++ mfoc.exe (windows version)
 tested successfully with ACR122U tag reader
 <br> TAB1 <br>
 <img src="http://averbouch.biz/MifareOneTool2.jpg"/>
