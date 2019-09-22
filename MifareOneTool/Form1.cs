@@ -1401,7 +1401,7 @@ namespace MifareOneTool
         void Hardnest(object sender, DoWorkEventArgs e)
         {
             Process psi = new Process();
-            psi.StartInfo = new ProcessStartInfo(@"nfc-bin\cropto1_bs.exe");
+            psi.StartInfo = new ProcessStartInfo(@"nfc-bin64\cropto1_bs_x64.exe");
             psi.StartInfo.Arguments = (string)e.Argument;
             psi.StartInfo.UseShellExecute = false;
             psi.StartInfo.RedirectStandardOutput = true;

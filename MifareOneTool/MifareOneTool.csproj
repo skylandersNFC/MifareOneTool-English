@@ -271,6 +271,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="MifareOneTool_ml.xml" />
+    <Content Include="nfc-bin64\cropto1_bs_x64.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="nfc-bin64\liblzma-5.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="nfc-bin64\mfcuk_keyrecovery_darkside.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
