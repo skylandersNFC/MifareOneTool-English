@@ -1,5 +1,8 @@
 # MifareOneTool-English version
 A GUI Mifare Classic tool on Windows<br>
+
+UPDATE JANUARY 2020 : new project here : https://github.com/xavave/MifareWindowsTool
+
 english translation by xavave<br>
 added : x64 nfcbin <br>
 + mfcuk_keyrecovery_darkside.exe (windows version that I've cross compiled from linux )<br>
