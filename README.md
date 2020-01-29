@@ -1,7 +1,9 @@
 # MifareOneTool-English version
 A GUI Mifare Classic tool on Windows<br>
 
-UPDATE JANUARY 2020 : new project here : https://github.com/xavave/MifareWindowsTool
+UPDATE JANUARY 2020 : new project here : https://github.com/xavave/Mifare-Windows-Tool
+
+<a href="https://github.com/xavave/Mifare-Windows-Tool"><img src="https://user-images.githubusercontent.com/3501675/73345370-3cb78d80-4284-11ea-8c17-e67fa8b54adc.png" /></a>
 
 english translation by xavave<br>
 added : x64 nfcbin <br>
