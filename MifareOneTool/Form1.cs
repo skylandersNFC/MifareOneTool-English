@@ -372,10 +372,10 @@ namespace MifareOneTool
             if (lprocess) { return; }
             ProcessStartInfo psi = new ProcessStartInfo("nfc-bin64/nfc-mfclassic.exe");
             string[] args = (string[])e.Argument;
-            psi.Arguments = "r " + args[1] + " u \"" + args[0] + "\"";
+            psi.Arguments = "-p r -e " + args[1] + " -d \"" + args[0] + "\"";
             if (keymfd != "" && args[2] == "")
             {
-                psi.Arguments += " \"" + keymfd + "\" f";
+                psi.Arguments += "-k \"" + keymfd + "\" -f";
             }
             psi.CreateNoWindow = true;
             psi.UseShellExecute = false;
