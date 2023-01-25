@@ -44,8 +44,8 @@
             // richTextBox1
             // 
             this.richTextBox1.BackColor = System.Drawing.Color.AliceBlue;
-            resources.ApplyResources(this.richTextBox1, "richTextBox1");
             this.richTextBox1.ForeColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.richTextBox1, "richTextBox1");
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
             this.richTextBox1.TextChanged += new System.EventHandler(this.RichTextBox1_TextChanged);
@@ -94,9 +94,9 @@
             // 
             // flowLayoutPanel2
             // 
-            resources.ApplyResources(this.flowLayoutPanel2, "flowLayoutPanel2");
             this.flowLayoutPanel2.Controls.Add(this.tableLayoutPanel1);
             this.flowLayoutPanel2.Controls.Add(this.richTextBox1);
+            resources.ApplyResources(this.flowLayoutPanel2, "flowLayoutPanel2");
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             // 
             // FormDiff
@@ -106,7 +106,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.flowLayoutPanel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.MaximizeBox = false;
             this.Name = "FormDiff";
             this.Load += new System.EventHandler(this.FormDiff_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
@@ -116,7 +115,6 @@
             this.flowLayoutPanel2.ResumeLayout(false);
             this.flowLayoutPanel2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

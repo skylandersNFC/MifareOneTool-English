@@ -1,13 +1,11 @@
-﻿using MifareOneTool.Properties;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Reflection;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using System.Net;
+﻿using System;
 using System.IO;
+using System.Net;
+using System.Reflection;
+
+using MifareOneTool.Properties;
+
+using Newtonsoft.Json.Linq;
 
 namespace MifareOneTool
 {
@@ -18,8 +16,9 @@ namespace MifareOneTool
         public void Update(string GitHubR)
         {
             try
-            {//.net4.5可用
-                //处理HttpWebRequest访问https有安全证书的问题（ 请求被中止: 未能创建 SSL/TLS 安全通道。）
+            {
+                //.net4.5 available
+                // Handle HttpWebRequest access to https with secure certificate (Request aborted: Failed to create SSL/TLS secure channel.)
                 //System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 
                 var request = (HttpWebRequest)WebRequest.Create("https://api.github.com/repos/" + GitHubR + "/releases/latest");

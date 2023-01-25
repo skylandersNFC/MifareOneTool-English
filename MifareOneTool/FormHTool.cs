@@ -100,7 +100,7 @@ namespace MifareOneTool
             this.ValidateChildren();
         }
 
-        private void 打开ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void OpenToolStripMenuItem_Click(object sender, EventArgs e)
         {
             reloadEdit(-1);
             OpenFileDialog ofd = new OpenFileDialog();
@@ -276,7 +276,7 @@ namespace MifareOneTool
             }
         }
 
-        private void 检查全卡ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void CheckFullCardToolStripMenuItem_Click(object sender, EventArgs e)
         {
             int[] res = currentS50.Verify();
             if (res[16] == 0)
@@ -335,7 +335,7 @@ namespace MifareOneTool
             reloadEdit(0);
         }
 
-        private void 新建ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void NewToolStripMenuItem_Click(object sender, EventArgs e)
         {
             reloadEdit(-1);
             this.currentS50 = new S50();
@@ -343,7 +343,7 @@ namespace MifareOneTool
             logAppend(Resources.已重置并新建卡);
         }
 
-        private void 检查并纠正全卡ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void CheckAndCorrectTheFullCardToolStripMenuItem_Click(object sender, EventArgs e)
         {
             byte[] defaultAC = new byte[] { 0xff, 0x07, 0x80, 0x69 };
             int[] res = currentS50.Verify();
@@ -393,7 +393,7 @@ namespace MifareOneTool
             }
         }
 
-        private void 导出为MCT格式ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ExportAsMCTFormatToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string filename;
             SaveFileDialog ofd = new SaveFileDialog();
@@ -421,7 +421,7 @@ namespace MifareOneTool
             logAppend(Resources.已导出MCT文件 + filename + "。");
         }
 
-        private void 导出密钥字典ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ExportKeyDictionaryToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string filename;
             SaveFileDialog ofd = new SaveFileDialog();
@@ -442,7 +442,7 @@ namespace MifareOneTool
             logAppend(Resources.已导出密钥字典文件 + filename + Resources.res);
         }
 
-        private void 导入MCT格式ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ImportMCTformatToolStripMenuItem_Click(object sender, EventArgs e)
         {
             reloadEdit(-1);
             OpenFileDialog ofd = new OpenFileDialog();
@@ -488,7 +488,7 @@ namespace MifareOneTool
 
         private void FormHTool_Load(object sender, EventArgs e)
         {
-            新建ToolStripMenuItem_Click(sender, e);
+            NewToolStripMenuItem_Click(sender, e);
         }
 
         private void keyAEdit_TextChanged(object sender, EventArgs e)

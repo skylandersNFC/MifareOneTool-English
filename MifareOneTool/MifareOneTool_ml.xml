@@ -29,9 +29,10 @@
   </GeneralIds>
   <GeneralIds>
     <StringID>10</StringID>
-    <Comment>Previous text: Hello,cardman!
-首次运行建议点击"检测设备"以加快后续运行速度
-</Comment>
+    <Comment>
+      Previous text: Hello,cardman!
+      The first time you run it, it is recommended that you click on "Detect Device" to speed up subsequent runs.
+    </Comment>
   </GeneralIds>
   <GeneralIds>
     <StringID>11</StringID>

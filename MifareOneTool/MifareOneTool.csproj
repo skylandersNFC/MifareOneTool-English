@@ -213,25 +213,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
-    <None Include="nfc-bin\data\tmpls_fingerprints\mfcuk_tmpl_oyster.mfd">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="nfc-bin\data\tmpls_fingerprints\mfcuk_tmpl_ratb.mfd">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="nfc-bin\data\tmpls_fingerprints\mfcuk_tmpl_skgt.mfd">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="nfc-bin\libgcc_s_dw2-1.dll.bak">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="nfc-bin\libnfc.dll.bak">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="nfc-bin\libwinpthread-1.dll.bak">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="nfc-bin\pcre3.dll.bak">
+    <None Include="nfc-bin64\libnfc.conf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Properties\Settings.settings">
@@ -267,140 +249,44 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="libusb\libusbK-inf-wizard.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="MifareOneTool_ml.xml" />
-    <Content Include="nfc-bin64\cropto1_bs_x64.exe">
+    <Content Include="nfc-bin64\liblzma.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="nfc-bin64\liblzma-5.dll">
+    <Content Include="nfc-bin64\libusb-1.0.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="nfc-bin64\mfcuk_keyrecovery_darkside.exe">
+    <Content Include="nfc-bin64\mfcuk.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="nfc-bin64\mfoc_x64.exe">
+    <Content Include="nfc-bin64\mfoc-hardnested.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="nfc-bin\collect.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\data\logs_proxmark3\trace1.txt" />
-    <Content Include="nfc-bin\data\logs_proxmark3\trace2.txt" />
-    <Content Include="nfc-bin\data\logs_proxmark3\trace3.txt" />
-    <Content Include="nfc-bin\libnfc%28532%29.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\libnfc%28ACR122Uslow%29.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\libnfc.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\libnfc_hardnested.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\libnfc_hardnestedlc.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\libusb0.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\mfcuk.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\mfcuk2.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\mfdetect.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\mff08.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\mfoc.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\mfoc2.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\nfc-anticol.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\nfc-barcode.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\nfc-dep-initiator.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\nfc-dep-target.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\nfc-emulate-forum-tag2.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\nfc-emulate-forum-tag4.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\nfc-emulate-tag.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\nfc-emulate-uid.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\nfc-jewel.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\nfc-list.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\nfc-mfclassic.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\nfc-mfclassic_dbg.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\nfc-mfsetuid.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\nfc-mfultralight.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\nfc-poll.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\nfc-read-forum-tag3.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\nfc-relay-picc.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\nfc-relay.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\nfc-scan-device.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\pn53x-diagnose.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\pn53x-sam.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin\pn53x-tamashell.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin64\libnfc.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="nfc-bin64\libusb0.dll">
+    <Content Include="nfc-bin64\nfc-anticol.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="nfc-bin64\nfc-barcode.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="nfc-bin64\nfc-dep-initiator.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="nfc-bin64\nfc-dep-target.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="nfc-bin64\nfc-detect-chinese-magic-card.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="nfc-bin64\nfc-emulate-forum-tag2.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="nfc-bin64\nfc-emulate-forum-tag4.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="nfc-bin64\nfc-emulate-tag.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="nfc-bin64\nfc-emulate-uid.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="nfc-bin64\nfc-jewel.exe">
@@ -412,7 +298,13 @@
     <Content Include="nfc-bin64\nfc-mfclassic.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="nfc-bin64\nfc-mfsetuid.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="nfc-bin64\nfc-mfultralight.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="nfc-bin64\nfc-poll.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="nfc-bin64\nfc-read-forum-tag3.exe">
@@ -421,7 +313,28 @@
     <Content Include="nfc-bin64\nfc-relay-picc.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="nfc-bin64\nfc-relay.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="nfc-bin64\nfc-scan-device.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="nfc-bin64\nfc-st25tb.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="nfc-bin64\nfc.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="nfc-bin64\pn53x-diagnose.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="nfc-bin64\pn53x-sam.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="nfc-bin64\pn53x-tamashell.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="nfc-bin64\pthreadVSE3.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="nfc_128.ico" />

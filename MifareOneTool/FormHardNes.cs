@@ -1,13 +1,9 @@
-﻿using MifareOneTool.Properties;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿using System;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
 using System.Text.RegularExpressions;
+using System.Windows.Forms;
+
+using MifareOneTool.Properties;
 
 namespace MifareOneTool
 {
@@ -19,7 +15,7 @@ namespace MifareOneTool
         }
 
         static int getBlock(int sector)
-        {//可能有bug
+        {//There may be a bug
             int trailer_block = 0;
             if (sector < 32)
             {

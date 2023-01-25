@@ -11,7 +11,7 @@ namespace MifareOneTool
     static class Program
     {
         /// <summary>
-        /// 应用程序的主入口点。
+        /// The main entry point for applications.
         /// </summary>
         [STAThread]
         static void Main()

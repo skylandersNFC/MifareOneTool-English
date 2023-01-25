@@ -406,7 +406,7 @@ namespace MifareOneTool
         private void buttonCLI_Click(object sender, EventArgs e)
         {
             ProcessStartInfo psi = new ProcessStartInfo("cmd.exe");
-            psi.WorkingDirectory = "nfc-bin";
+            psi.WorkingDirectory = "nfc-bin64";
             Process.Start(psi);
         }
 
@@ -434,7 +434,7 @@ namespace MifareOneTool
         bool writecheck(string file)
         {
             if (checkBoxWriteProtect.Checked == false)
-            { return true; }//如果禁用，直接假装检查成功
+            { return true; }//If disabled, just pretend the check is successful
             S50 card = new S50();
             try
             {
@@ -478,7 +478,8 @@ namespace MifareOneTool
             string nn = "";
             if (checkBoxAutoABN.Checked && keymfd != "")
             {
-                kt = "C";
+                //kt = "C";  
+                kt = "A";
                 logAppend(Resources.正在使用智能KeyABN);
             }
             else
@@ -506,10 +507,10 @@ namespace MifareOneTool
             if (lprocess) { return; }
             ProcessStartInfo psi = new ProcessStartInfo("nfc-bin64/nfc-mfclassic.exe");
             string[] args = (string[])e.Argument;
-            psi.Arguments = "w " + args[1] + " u \"" + args[0] + "\"";
+            psi.Arguments = "-p w " + " -e" + args[1] + " -u 0" + " -d \"" + args[0] + "\"";
             if (keymfd != "" && args[2] == "")
             {
-                psi.Arguments += " \"" + keymfd + "\" f";
+                psi.Arguments += "-k \"" + keymfd + "\" -f";
             }
             psi.CreateNoWindow = true;
             psi.UseShellExecute = false;
@@ -566,7 +567,7 @@ namespace MifareOneTool
         void mfoc(object sender, DoWorkEventArgs e)
         {
             if (lprocess) { return; }
-            ProcessStartInfo psi = new ProcessStartInfo("nfc-bin64/mfoc_x64.exe");
+            ProcessStartInfo psi = new ProcessStartInfo("nfc-bin64/mfoc-hardnested.exe");
             string[] args = (string[])e.Argument;
             psi.Arguments = args[1] + " -O \"" + args[0] + "\"";
             psi.CreateNoWindow = true;
@@ -590,7 +591,7 @@ namespace MifareOneTool
             }
             else
             {
-                b.ReportProgress(100, "##运行出错##");
+                b.ReportProgress(100, "##Run with errors##");
                 File.Delete(args[0]);
             }
         }
@@ -611,7 +612,7 @@ namespace MifareOneTool
             StringBuilder ret = new StringBuilder();
             foreach (byte b in bytes)
             {
-                //{0:X2} 大写
+                //{0:X2} capital letters
                 ret.AppendFormat("{0:x2}", b);
             }
             return ret.ToString();
@@ -620,7 +621,7 @@ namespace MifareOneTool
         void reset_uid(object sender, DoWorkEventArgs e)
         {
             if (lprocess) { return; }
-            ProcessStartInfo psi = new ProcessStartInfo("nfc-bin/nfc-mfsetuid.exe");
+            ProcessStartInfo psi = new ProcessStartInfo("nfc-bin64/nfc-mfsetuid.exe");
             RNGCryptoServiceProvider rng = new RNGCryptoServiceProvider();
             byte[] uid = new byte[4];
             rng.GetNonZeroBytes(uid);
@@ -659,7 +660,7 @@ namespace MifareOneTool
         void format_uid(object sender, DoWorkEventArgs e)
         {
             if (lprocess) { return; }
-            ProcessStartInfo psi = new ProcessStartInfo("nfc-bin/nfc-mfsetuid.exe");
+            ProcessStartInfo psi = new ProcessStartInfo("nfc-bin64/nfc-mfsetuid.exe");
             RNGCryptoServiceProvider rng = new RNGCryptoServiceProvider();
             byte[] uid = new byte[4];
             rng.GetNonZeroBytes(uid);
@@ -685,7 +686,7 @@ namespace MifareOneTool
         private void buttonBmfRead_Click(object sender, EventArgs e)
         {
             if (lprocess) { MessageBox.Show(Resources.有任务运行中_不可执行, Resources.设备忙, MessageBoxButtons.OK, MessageBoxIcon.Warning); return; }
-            Form1.ActiveForm.Text = "MifareOne Tool - 运行中";
+            Form1.ActiveForm.Text = "MifareOne Tool - Running";
             string rmfd = "BmfRead.tmp";
             if (checkBoxAutoSave.Checked)
             {
@@ -704,7 +705,7 @@ namespace MifareOneTool
             if (lprocess) { return; }
             ProcessStartInfo psi = new ProcessStartInfo("nfc-bin64/nfc-mfclassic.exe");
             string[] args = (string[])e.Argument;
-            psi.Arguments = "R A u \"" + args[0] + "\"";
+            psi.Arguments = "-p R -e A -d \"" + args[0] + "\"";
             psi.CreateNoWindow = true;
             psi.UseShellExecute = false;
             psi.RedirectStandardOutput = true;
@@ -761,10 +762,10 @@ namespace MifareOneTool
             if (lprocess) { return; }
             ProcessStartInfo psi = new ProcessStartInfo("nfc-bin64/nfc-mfclassic.exe");
             string[] args = (string[])e.Argument;
-            psi.Arguments = "W A u \"" + args[0] + "\"";
+            psi.Arguments = "-p W -e A -d \"" + args[0] + "\"";
             if (keymfd != "")
             {
-                psi.Arguments += " \"" + keymfd + "\" f";
+                psi.Arguments += " -k \"" + keymfd + "\" f";
             }
             psi.CreateNoWindow = true;
             psi.UseShellExecute = false;
@@ -822,7 +823,7 @@ namespace MifareOneTool
         void set_uid(object sender, DoWorkEventArgs e)
         {
             if (lprocess) { return; }
-            ProcessStartInfo psi = new ProcessStartInfo("nfc-bin/nfc-mfsetuid.exe");
+            ProcessStartInfo psi = new ProcessStartInfo("nfc-bin64/nfc-mfsetuid.exe");
             psi.Arguments = "" + ((string)e.Argument).Substring(0, 8) + "2B0804006263646566676869";
             psi.CreateNoWindow = true;
             psi.UseShellExecute = false;
@@ -857,7 +858,7 @@ namespace MifareOneTool
         {
             if (lprocess) { MessageBox.Show(Resources.有任务运行中_不可执行, Resources.设备忙, MessageBoxButtons.OK, MessageBoxIcon.Warning); return; }
             ProcessStartInfo psi = new ProcessStartInfo("cmd");
-            psi.Arguments = "/k mfcuk_keyrecovery_darkside.exe -v 3 -C -R -1 -s 250 -S 250";
+            psi.Arguments = "/k mfcuk.exe -v 3 -C -R -1 -s 250 -S 250";
             psi.WorkingDirectory = "nfc-bin64";
             lprocess = true;
             BackgroundWorker b = (BackgroundWorker)sender;
@@ -902,7 +903,8 @@ namespace MifareOneTool
             string nn = "";
             if (checkBoxAutoABN.Checked && keymfd != "")
             {
-                kt = "C";
+                kt = "A";
+                //kt = "C";
                 logAppend(Resources.正在使用智能KeyABN);
             }
             else
@@ -930,10 +932,11 @@ namespace MifareOneTool
             if (lprocess) { return; }
             ProcessStartInfo psi = new ProcessStartInfo("nfc-bin64/nfc-mfclassic.exe");
             string[] args = (string[])e.Argument;
-            psi.Arguments = "c " + args[1] + " u \"" + args[0] + "\"";
+            psi.Arguments = "W " + args[1] + " -d \"" + args[0] + "\"";
+            //psi.Arguments = "c " + args[1] + " -d \"" + args[0] + "\"";
             if (keymfd != "" && args[2] == "")
             {
-                psi.Arguments += " \"" + keymfd + "\" f";
+                psi.Arguments += " -k \"" + keymfd + "\" f";
             }
             psi.CreateNoWindow = true;
             psi.UseShellExecute = false;
@@ -988,7 +991,7 @@ namespace MifareOneTool
         void lock_ufuid(object sender, DoWorkEventArgs e)
         {
             if (lprocess) { return; }
-            ProcessStartInfo psi = new ProcessStartInfo("nfc-bin/nfc-mfsetuid.exe");
+            ProcessStartInfo psi = new ProcessStartInfo("nfc-bin64/nfc-mfsetuid.exe");
             RNGCryptoServiceProvider rng = new RNGCryptoServiceProvider();
             byte[] uid = new byte[4];
             rng.GetNonZeroBytes(uid);
@@ -1020,7 +1023,8 @@ namespace MifareOneTool
             string kt = "A";
             if (checkBoxAutoABN.Checked && keymfd != "")
             {
-                kt = "C";
+                kt = "A";  
+                //kt = "C";
                 logAppend(Resources.正在使用智能KeyABN);
             }
             else
@@ -1179,7 +1183,7 @@ namespace MifareOneTool
         }
 
         private void buttonCheckEncrypt_Click(object sender, EventArgs e)
-        {//其实这个mfdetect就是个mfoc阉割版。。只检测不破解而已，所以-f -k什么的可以加上，测试自己的key
+        {//Actually this mfdetect Just a mfoc Neutered version.. only the detection is not cracked, so -f -k What can be added to test your key
             if (lprocess) { MessageBox.Show(Resources.有任务运行中_不可执行, Resources.设备忙, MessageBoxButtons.OK, MessageBoxIcon.Warning); return; }
             Form1.ActiveForm.Text = Resources.MifareOne_Tool_运行中;
             string key = "";
@@ -1209,7 +1213,7 @@ namespace MifareOneTool
         void MfDetect(object sender, DoWorkEventArgs e)
         {
             if (lprocess) { return; }
-            ProcessStartInfo psi = new ProcessStartInfo("nfc-bin/mfdetect.exe");
+            ProcessStartInfo psi = new ProcessStartInfo("nfc-bin64/mfoc-hardnested.exe");
             psi.Arguments = (string)(e.Argument) + "-O dummy.tmp";
             psi.CreateNoWindow = true;
             psi.UseShellExecute = false;
@@ -1339,7 +1343,7 @@ namespace MifareOneTool
             ProcessStartInfo psi = new ProcessStartInfo("cmd.exe");
             string[] args = (string[])e.Argument;
             psi.WorkingDirectory = "./";
-            psi.Arguments = "/T:0A " + args[2] + @" nfc-bin64\mfoc_x64.exe " + args[1] + " -O \"" + args[0] + "\"";
+            psi.Arguments = "/T:0A " + args[2] + @" nfc-bin64\mfoc-hardnested.exe " + args[1] + " -O \"" + args[0] + "\"";
             lprocess = true;
             BackgroundWorker b = (BackgroundWorker)sender;
             process = Process.Start(psi);
@@ -1401,7 +1405,7 @@ namespace MifareOneTool
         void Hardnest(object sender, DoWorkEventArgs e)
         {
             Process psi = new Process();
-            psi.StartInfo = new ProcessStartInfo(@"nfc-bin64\cropto1_bs_x64.exe");
+            psi.StartInfo = new ProcessStartInfo(@"nfc-bin64\mfoc-hardnested.exe");
             psi.StartInfo.Arguments = (string)e.Argument;
             psi.StartInfo.UseShellExecute = false;
             psi.StartInfo.RedirectStandardOutput = true;
@@ -1496,9 +1500,9 @@ namespace MifareOneTool
         {
             if (comboBox1.SelectedItem.ToString() == Resources.标准)
             {
-                System.Threading.Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("zh-cn");
-                System.Threading.Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("zh-cn");
-                Properties.Settings.Default.Language = "zh-cn";
+                System.Threading.Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en-US");
+                System.Threading.Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("en-US");
+                Properties.Settings.Default.Language = "en-US";
                 Properties.Settings.Default.Save();
                 Application.Restart();
             }
@@ -1518,7 +1522,7 @@ namespace MifareOneTool
             if (lprocess) { MessageBox.Show(Resources.有任务运行中_不可执行, Resources.设备忙, MessageBoxButtons.OK, MessageBoxIcon.Warning); return; }
             Form1.ActiveForm.Text = Resources.MifareOne_Tool_运行中;
             Process cmd = new Process();
-            cmd.StartInfo = new ProcessStartInfo("nfc-bin/nfcUID.exe", "-device=1");
+            cmd.StartInfo = new ProcessStartInfo("nfc-bin64/nfc-list.exe");//, "-device=1");
             cmd.StartInfo.RedirectStandardOutput = true;
             cmd.StartInfo.RedirectStandardInput = true;
             cmd.StartInfo.UseShellExecute = false;
@@ -1547,9 +1551,9 @@ namespace MifareOneTool
 
         private void button1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process Go = new System.Diagnostics.Process();
-            Go.StartInfo.FileName = @"libusb\libusbK-inf-wizard.exe";
-            Go.Start();
+            //System.Diagnostics.Process Go = new System.Diagnostics.Process();
+            //Go.StartInfo.FileName = @"libusb\libusbK-inf-wizard.exe";
+            //Go.Start();
         }
     }
 }

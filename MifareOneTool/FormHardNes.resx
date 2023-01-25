@@ -136,13 +136,13 @@
     <value>Yu Gothic UI Semibold, 9.75pt, style=Bold</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 3</value>
+    <value>108, 5</value>
   </data>
   <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 3, 2, 3</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 31</value>
+    <value>99, 42</value>
   </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -178,13 +178,13 @@
     <value>Yu Gothic UI Semibold, 9.75pt, style=Bold</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 3</value>
+    <value>3, 5</value>
   </data>
   <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 3, 2, 3</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 31</value>
+    <value>99, 42</value>
   </data>
   <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -229,13 +229,13 @@
     <value>Yu Gothic UI Semibold, 9pt, style=Bold</value>
   </data>
   <data name="radioKey1B.Location" type="System.Drawing.Point, System.Drawing">
-    <value>257, 18</value>
+    <value>442, 30</value>
   </data>
   <data name="radioKey1B.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 3, 2, 3</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="radioKey1B.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 23</value>
+    <value>294, 31</value>
   </data>
   <data name="radioKey1B.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -265,13 +265,10 @@
     <value>Yu Gothic UI Semibold, 9pt, style=Bold</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 0</value>
-  </data>
-  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>3, 0</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 15</value>
+    <value>149, 25</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -304,13 +301,13 @@
     <value>Yu Gothic UI Semibold, 9pt, style=Bold</value>
   </data>
   <data name="radioKey1A.Location" type="System.Drawing.Point, System.Drawing">
-    <value>201, 18</value>
+    <value>357, 30</value>
   </data>
   <data name="radioKey1A.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 3, 2, 3</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="radioKey1A.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 23</value>
+    <value>79, 31</value>
   </data>
   <data name="radioKey1A.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -334,13 +331,13 @@
     <value>Fill</value>
   </data>
   <data name="keyEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 18</value>
+    <value>3, 30</value>
   </data>
   <data name="keyEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 3, 2, 3</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="keyEdit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 23</value>
+    <value>149, 31</value>
   </data>
   <data name="keyEdit.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -370,13 +367,10 @@
     <value>Yu Gothic UI Semibold, 9pt, style=Bold</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>201, 0</value>
-  </data>
-  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>357, 0</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 15</value>
+    <value>50, 25</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -409,13 +403,10 @@
     <value>Yu Gothic UI Semibold, 9pt, style=Bold</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 0</value>
-  </data>
-  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>158, 0</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 15</value>
+    <value>193, 25</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -442,13 +433,13 @@
     <value>Fill</value>
   </data>
   <data name="sector1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 18</value>
+    <value>158, 30</value>
   </data>
   <data name="sector1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 3, 2, 3</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="sector1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 23</value>
+    <value>193, 31</value>
   </data>
   <data name="sector1.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -475,16 +466,16 @@
     <value>Yu Gothic UI, 9pt</value>
   </data>
   <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 21</value>
+    <value>3, 31</value>
   </data>
   <data name="tableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 3, 2, 3</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>339, 44</value>
+    <value>739, 66</value>
   </data>
   <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -511,16 +502,16 @@
     <value>Yu Gothic UI Semibold, 9.75pt, style=Bold</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 3</value>
+    <value>3, 5</value>
   </data>
   <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 3, 2, 3</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 3, 2, 3</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>343, 68</value>
+    <value>745, 102</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -550,13 +541,10 @@
     <value>Yu Gothic UI Semibold, 9pt, style=Bold</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 0</value>
-  </data>
-  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>3, 0</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>304, 30</value>
+    <value>486, 62</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -587,13 +575,13 @@
     <value>Yu Gothic UI Semibold, 9pt, style=Bold</value>
   </data>
   <data name="radioKey2B.Location" type="System.Drawing.Point, System.Drawing">
-    <value>148, 18</value>
+    <value>287, 30</value>
   </data>
   <data name="radioKey2B.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 3, 2, 3</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="radioKey2B.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 19</value>
+    <value>78, 29</value>
   </data>
   <data name="radioKey2B.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -620,13 +608,13 @@
     <value>Yu Gothic UI Semibold, 9pt, style=Bold</value>
   </data>
   <data name="radioKey2A.Location" type="System.Drawing.Point, System.Drawing">
-    <value>92, 18</value>
+    <value>202, 30</value>
   </data>
   <data name="radioKey2A.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 3, 2, 3</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="radioKey2A.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 19</value>
+    <value>79, 29</value>
   </data>
   <data name="radioKey2A.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -656,13 +644,10 @@
     <value>Yu Gothic UI Semibold, 9pt, style=Bold</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>92, 0</value>
-  </data>
-  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>202, 0</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 15</value>
+    <value>79, 25</value>
   </data>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -695,13 +680,10 @@
     <value>Yu Gothic UI Semibold, 9pt, style=Bold</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 0</value>
-  </data>
-  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>3, 0</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 15</value>
+    <value>193, 25</value>
   </data>
   <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -752,13 +734,13 @@
     <value>Fill</value>
   </data>
   <data name="sector2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 18</value>
+    <value>3, 30</value>
   </data>
   <data name="sector2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 3, 2, 3</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="sector2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 23</value>
+    <value>193, 31</value>
   </data>
   <data name="sector2.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -779,16 +761,16 @@
     <value>Fill</value>
   </data>
   <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>136, 3</value>
+    <value>213, 5</value>
   </data>
   <data name="tableLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 3, 2, 3</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 44</value>
+    <value>523, 66</value>
   </data>
   <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -818,10 +800,13 @@
     <value>Yu Gothic UI, 9pt, style=Bold</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
+    <value>4, 0</value>
+  </data>
+  <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 50</value>
+    <value>202, 76</value>
   </data>
   <data name="label7.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -850,16 +835,16 @@ expect about 1 minute.</value>
     <value>Yu Gothic UI, 9pt</value>
   </data>
   <data name="tableLayoutPanel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 21</value>
+    <value>3, 31</value>
   </data>
   <data name="tableLayoutPanel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 3, 2, 3</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="tableLayoutPanel4.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>339, 50</value>
+    <value>739, 76</value>
   </data>
   <data name="tableLayoutPanel4.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -886,16 +871,16 @@ expect about 1 minute.</value>
     <value>Yu Gothic UI Semibold, 9.75pt, style=Bold</value>
   </data>
   <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 77</value>
+    <value>3, 117</value>
   </data>
   <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 3, 2, 3</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 3, 2, 3</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>343, 74</value>
+    <value>745, 112</value>
   </data>
   <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -940,16 +925,16 @@ expect about 1 minute.</value>
     <value>Right</value>
   </data>
   <data name="tableLayoutPanel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 33</value>
+    <value>495, 5</value>
   </data>
   <data name="tableLayoutPanel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 3, 2, 3</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="tableLayoutPanel5.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 37</value>
+    <value>210, 52</value>
   </data>
   <data name="tableLayoutPanel5.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -973,13 +958,13 @@ expect about 1 minute.</value>
     <value>Fill</value>
   </data>
   <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 157</value>
+    <value>3, 239</value>
   </data>
   <data name="flowLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 3, 2, 3</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>343, 73</value>
+    <value>745, 138</value>
   </data>
   <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -1003,13 +988,13 @@ expect about 1 minute.</value>
     <value>0, 0</value>
   </data>
   <data name="tableLayoutPanel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 3, 2, 3</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="tableLayoutPanel3.RowCount" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>345, 224</value>
+    <value>751, 382</value>
   </data>
   <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -1033,7 +1018,7 @@ expect about 1 minute.</value>
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
+    <value>10, 25</value>
   </data>
   <data name="$this.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1042,13 +1027,13 @@ expect about 1 minute.</value>
     <value>GrowAndShrink</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>345, 224</value>
+    <value>751, 382</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI, 9pt</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 3, 2, 3</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Bitsliced Crypto-1 brute-forcer</value>

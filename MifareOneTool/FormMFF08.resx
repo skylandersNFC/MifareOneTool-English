@@ -123,13 +123,17 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>SimSun, 9.5pt</value>
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 18</value>
+    <value>9, 28</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1078, 39</value>
+    <value>1344, 75</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -152,10 +156,16 @@ Please prepare the card data file that caused the last 0 damage to the card (if 
     <value>0</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 13</value>
+    <value>18, 20</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1092, 109</value>
+    <value>1638, 168</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -176,10 +186,13 @@ Please prepare the card data file that caused the last 0 damage to the card (if 
     <value>2</value>
   </data>
   <data name="buttonClr.Location" type="System.Drawing.Point, System.Drawing">
-    <value>585, 36</value>
+    <value>878, 55</value>
+  </data>
+  <data name="buttonClr.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="buttonClr.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 25</value>
+    <value>66, 38</value>
   </data>
   <data name="buttonClr.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -200,10 +213,13 @@ Please prepare the card data file that caused the last 0 damage to the card (if 
     <value>0</value>
   </data>
   <data name="buttonLoadKey.Location" type="System.Drawing.Point, System.Drawing">
-    <value>504, 36</value>
+    <value>756, 55</value>
+  </data>
+  <data name="buttonLoadKey.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="buttonLoadKey.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 25</value>
+    <value>112, 38</value>
   </data>
   <data name="buttonLoadKey.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -224,10 +240,13 @@ Please prepare the card data file that caused the last 0 damage to the card (if 
     <value>1</value>
   </data>
   <data name="keyfileBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>237, 38</value>
+    <value>356, 58</value>
+  </data>
+  <data name="keyfileBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="keyfileBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 20</value>
+    <value>390, 26</value>
   </data>
   <data name="keyfileBox.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -248,33 +267,20 @@ Please prepare the card data file that caused the last 0 damage to the card (if 
     <value>True</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>235, 21</value>
+    <value>352, 24</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 13</value>
+    <value>513, 20</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>The last time the card was written resulted in 0 corrupted card data files:
-The
-Translations of the
-ArticleFrequency
-那个
-the
-Definitions of the
-Article
-1
-denoting one or more people or things already mentioned or assumed to be common knowledge.
-what's the matter?
-2
-used to point forward to a following qualifying or defining clause or phrase.
-the fuss that he made of her
-3
-used to make a generalized reference to something rather than identifying a particular instance.
-he taught himself to play the violin
-3 more definitions</value>
+</value>
   </data>
   <data name="&gt;&gt;label2.Name" xml:space="preserve">
     <value>label2</value>
@@ -289,13 +295,16 @@ he taught himself to play the violin
     <value>3</value>
   </data>
   <data name="buttonKeyWrite.Font" type="System.Drawing.Font, System.Drawing">
-    <value>SimSun, 11.25pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="buttonKeyWrite.Location" type="System.Drawing.Point, System.Drawing">
-    <value>121, 21</value>
+    <value>182, 32</value>
+  </data>
+  <data name="buttonKeyWrite.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="buttonKeyWrite.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 80</value>
+    <value>124, 123</value>
   </data>
   <data name="buttonKeyWrite.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -321,10 +330,13 @@ CUID card</value>
     <value>SimSun, 11.25pt, style=Bold</value>
   </data>
   <data name="buttonWriteEmpty.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 21</value>
+    <value>12, 32</value>
+  </data>
+  <data name="buttonWriteEmpty.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="buttonWriteEmpty.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 80</value>
+    <value>124, 123</value>
   </data>
   <data name="buttonWriteEmpty.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -342,10 +354,16 @@ CUID card</value>
     <value>5</value>
   </data>
   <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 128</value>
+    <value>18, 197</value>
+  </data>
+  <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>635, 109</value>
+    <value>952, 168</value>
   </data>
   <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -365,18 +383,20 @@ CUID card</value>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="logBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
   <data name="logBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 16</value>
+    <value>4, 24</value>
+  </data>
+  <data name="logBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="logBox.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
     <value>ForcedVertical</value>
   </data>
   <data name="logBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>629, 184</value>
+    <value>944, 283</value>
   </data>
   <data name="logBox.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -400,10 +420,16 @@ The MFF08 tool gives you a chance to fix these damaged cards at once.
     <value>0</value>
   </data>
   <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 242</value>
+    <value>18, 372</value>
+  </data>
+  <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>635, 203</value>
+    <value>952, 312</value>
   </data>
   <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -423,14 +449,17 @@ The MFF08 tool gives you a chance to fix these damaged cards at once.
   <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </data>
+  </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>9, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1115, 460</value>
+    <value>1672, 708</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>MFF08 Tool-CUID Repair Tool</value>

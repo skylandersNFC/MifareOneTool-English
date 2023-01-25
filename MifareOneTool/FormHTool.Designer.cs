@@ -52,7 +52,6 @@
             this.列出全卡密钥ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
@@ -82,6 +81,7 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.s50BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -108,7 +108,6 @@
             // 
             // 文件ToolStripMenuItem
             // 
-            resources.ApplyResources(this.文件ToolStripMenuItem, "文件ToolStripMenuItem");
             this.文件ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.新建ToolStripMenuItem,
             this.打开ToolStripMenuItem,
@@ -117,45 +116,45 @@
             this.toolStripSeparator1,
             this.退出ToolStripMenuItem});
             this.文件ToolStripMenuItem.Name = "文件ToolStripMenuItem";
+            resources.ApplyResources(this.文件ToolStripMenuItem, "文件ToolStripMenuItem");
             // 
             // 新建ToolStripMenuItem
             // 
-            resources.ApplyResources(this.新建ToolStripMenuItem, "新建ToolStripMenuItem");
             this.新建ToolStripMenuItem.Name = "新建ToolStripMenuItem";
-            this.新建ToolStripMenuItem.Click += new System.EventHandler(this.新建ToolStripMenuItem_Click);
+            resources.ApplyResources(this.新建ToolStripMenuItem, "新建ToolStripMenuItem");
+            this.新建ToolStripMenuItem.Click += new System.EventHandler(this.NewToolStripMenuItem_Click);
             // 
             // 打开ToolStripMenuItem
             // 
-            resources.ApplyResources(this.打开ToolStripMenuItem, "打开ToolStripMenuItem");
             this.打开ToolStripMenuItem.Name = "打开ToolStripMenuItem";
-            this.打开ToolStripMenuItem.Click += new System.EventHandler(this.打开ToolStripMenuItem_Click);
+            resources.ApplyResources(this.打开ToolStripMenuItem, "打开ToolStripMenuItem");
+            this.打开ToolStripMenuItem.Click += new System.EventHandler(this.OpenToolStripMenuItem_Click);
             // 
             // 保存ToolStripMenuItem
             // 
-            resources.ApplyResources(this.保存ToolStripMenuItem, "保存ToolStripMenuItem");
             this.保存ToolStripMenuItem.Name = "保存ToolStripMenuItem";
+            resources.ApplyResources(this.保存ToolStripMenuItem, "保存ToolStripMenuItem");
             this.保存ToolStripMenuItem.Click += new System.EventHandler(this.保存ToolStripMenuItem_Click);
             // 
             // 另存为ToolStripMenuItem
             // 
-            resources.ApplyResources(this.另存为ToolStripMenuItem, "另存为ToolStripMenuItem");
             this.另存为ToolStripMenuItem.Name = "另存为ToolStripMenuItem";
+            resources.ApplyResources(this.另存为ToolStripMenuItem, "另存为ToolStripMenuItem");
             this.另存为ToolStripMenuItem.Click += new System.EventHandler(this.另存为ToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
-            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             this.toolStripSeparator1.Name = "toolStripSeparator1";
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             // 
             // 退出ToolStripMenuItem
             // 
-            resources.ApplyResources(this.退出ToolStripMenuItem, "退出ToolStripMenuItem");
             this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
+            resources.ApplyResources(this.退出ToolStripMenuItem, "退出ToolStripMenuItem");
             this.退出ToolStripMenuItem.Click += new System.EventHandler(this.退出ToolStripMenuItem_Click);
             // 
             // 工具ToolStripMenuItem
             // 
-            resources.ApplyResources(this.工具ToolStripMenuItem, "工具ToolStripMenuItem");
             this.工具ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.修改UIDToolStripMenuItem,
             this.toolStripSeparator2,
@@ -168,76 +167,76 @@
             this.toolStripSeparator4,
             this.列出全卡密钥ToolStripMenuItem});
             this.工具ToolStripMenuItem.Name = "工具ToolStripMenuItem";
+            resources.ApplyResources(this.工具ToolStripMenuItem, "工具ToolStripMenuItem");
             // 
             // 修改UIDToolStripMenuItem
             // 
-            resources.ApplyResources(this.修改UIDToolStripMenuItem, "修改UIDToolStripMenuItem");
             this.修改UIDToolStripMenuItem.Name = "修改UIDToolStripMenuItem";
+            resources.ApplyResources(this.修改UIDToolStripMenuItem, "修改UIDToolStripMenuItem");
             this.修改UIDToolStripMenuItem.Click += new System.EventHandler(this.修改UIDToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
-            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             this.toolStripSeparator2.Name = "toolStripSeparator2";
+            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             // 
             // 检查全卡ToolStripMenuItem
             // 
-            resources.ApplyResources(this.检查全卡ToolStripMenuItem, "检查全卡ToolStripMenuItem");
             this.检查全卡ToolStripMenuItem.Name = "检查全卡ToolStripMenuItem";
-            this.检查全卡ToolStripMenuItem.Click += new System.EventHandler(this.检查全卡ToolStripMenuItem_Click);
+            resources.ApplyResources(this.检查全卡ToolStripMenuItem, "检查全卡ToolStripMenuItem");
+            this.检查全卡ToolStripMenuItem.Click += new System.EventHandler(this.CheckFullCardToolStripMenuItem_Click);
             // 
             // 检查并纠正全卡ToolStripMenuItem
             // 
-            resources.ApplyResources(this.检查并纠正全卡ToolStripMenuItem, "检查并纠正全卡ToolStripMenuItem");
             this.检查并纠正全卡ToolStripMenuItem.Name = "检查并纠正全卡ToolStripMenuItem";
-            this.检查并纠正全卡ToolStripMenuItem.Click += new System.EventHandler(this.检查并纠正全卡ToolStripMenuItem_Click);
+            resources.ApplyResources(this.检查并纠正全卡ToolStripMenuItem, "检查并纠正全卡ToolStripMenuItem");
+            this.检查并纠正全卡ToolStripMenuItem.Click += new System.EventHandler(this.CheckAndCorrectTheFullCardToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
-            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
             this.toolStripSeparator3.Name = "toolStripSeparator3";
+            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
             // 
             // 导入MCT格式ToolStripMenuItem
             // 
-            resources.ApplyResources(this.导入MCT格式ToolStripMenuItem, "导入MCT格式ToolStripMenuItem");
             this.导入MCT格式ToolStripMenuItem.Name = "导入MCT格式ToolStripMenuItem";
-            this.导入MCT格式ToolStripMenuItem.Click += new System.EventHandler(this.导入MCT格式ToolStripMenuItem_Click);
+            resources.ApplyResources(this.导入MCT格式ToolStripMenuItem, "导入MCT格式ToolStripMenuItem");
+            this.导入MCT格式ToolStripMenuItem.Click += new System.EventHandler(this.ImportMCTformatToolStripMenuItem_Click);
             // 
             // 导出为MCT格式ToolStripMenuItem
             // 
-            resources.ApplyResources(this.导出为MCT格式ToolStripMenuItem, "导出为MCT格式ToolStripMenuItem");
             this.导出为MCT格式ToolStripMenuItem.Name = "导出为MCT格式ToolStripMenuItem";
-            this.导出为MCT格式ToolStripMenuItem.Click += new System.EventHandler(this.导出为MCT格式ToolStripMenuItem_Click);
+            resources.ApplyResources(this.导出为MCT格式ToolStripMenuItem, "导出为MCT格式ToolStripMenuItem");
+            this.导出为MCT格式ToolStripMenuItem.Click += new System.EventHandler(this.ExportAsMCTFormatToolStripMenuItem_Click);
             // 
             // 导出密钥字典ToolStripMenuItem
             // 
-            resources.ApplyResources(this.导出密钥字典ToolStripMenuItem, "导出密钥字典ToolStripMenuItem");
             this.导出密钥字典ToolStripMenuItem.Name = "导出密钥字典ToolStripMenuItem";
-            this.导出密钥字典ToolStripMenuItem.Click += new System.EventHandler(this.导出密钥字典ToolStripMenuItem_Click);
+            resources.ApplyResources(this.导出密钥字典ToolStripMenuItem, "导出密钥字典ToolStripMenuItem");
+            this.导出密钥字典ToolStripMenuItem.Click += new System.EventHandler(this.ExportKeyDictionaryToolStripMenuItem_Click);
             // 
             // toolStripSeparator4
             // 
-            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
             this.toolStripSeparator4.Name = "toolStripSeparator4";
+            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
             // 
             // 列出全卡密钥ToolStripMenuItem
             // 
-            resources.ApplyResources(this.列出全卡密钥ToolStripMenuItem, "列出全卡密钥ToolStripMenuItem");
             this.列出全卡密钥ToolStripMenuItem.Name = "列出全卡密钥ToolStripMenuItem";
+            resources.ApplyResources(this.列出全卡密钥ToolStripMenuItem, "列出全卡密钥ToolStripMenuItem");
             this.列出全卡密钥ToolStripMenuItem.Click += new System.EventHandler(this.列出全卡密钥ToolStripMenuItem_Click);
             // 
             // groupBox1
             // 
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.BackColor = System.Drawing.Color.DodgerBlue;
             this.groupBox1.Controls.Add(this.dataGridView1);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
             // dataGridView1
             // 
-            resources.ApplyResources(this.dataGridView1, "dataGridView1");
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AllowUserToResizeColumns = false;
@@ -257,6 +256,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1});
+            resources.ApplyResources(this.dataGridView1, "dataGridView1");
             this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dataGridView1.GridColor = System.Drawing.Color.SkyBlue;
             this.dataGridView1.MultiSelect = false;
@@ -264,14 +264,6 @@
             this.dataGridView1.RowTemplate.Height = 27;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            // 
-            // Column1
-            // 
-            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            resources.ApplyResources(this.Column1, "Column1");
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // groupBox2
             // 
@@ -414,8 +406,8 @@
             // 
             // keyAEdit
             // 
-            resources.ApplyResources(this.keyAEdit, "keyAEdit");
             this.keyAEdit.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.keyAEdit, "keyAEdit");
             this.keyAEdit.Name = "keyAEdit";
             this.keyAEdit.TextChanged += new System.EventHandler(this.keyAEdit_TextChanged);
             this.keyAEdit.Validating += new System.ComponentModel.CancelEventHandler(this.keyAEdit_Validating);
@@ -427,8 +419,8 @@
             // 
             // keyBEdit
             // 
-            resources.ApplyResources(this.keyBEdit, "keyBEdit");
             this.keyBEdit.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.keyBEdit, "keyBEdit");
             this.keyBEdit.Name = "keyBEdit";
             this.keyBEdit.Validating += new System.ComponentModel.CancelEventHandler(this.keyAEdit_Validating);
             // 
@@ -472,8 +464,8 @@
             // 
             // block0Edit
             // 
-            resources.ApplyResources(this.block0Edit, "block0Edit");
             this.block0Edit.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.block0Edit, "block0Edit");
             this.block0Edit.Name = "block0Edit";
             this.block0Edit.Validating += new System.ComponentModel.CancelEventHandler(this.block0Edit_Validating);
             // 
@@ -484,8 +476,8 @@
             // 
             // block1Edit
             // 
-            resources.ApplyResources(this.block1Edit, "block1Edit");
             this.block1Edit.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.block1Edit, "block1Edit");
             this.block1Edit.Name = "block1Edit";
             this.block1Edit.Validating += new System.ComponentModel.CancelEventHandler(this.block0Edit_Validating);
             // 
@@ -496,8 +488,8 @@
             // 
             // block2Edit
             // 
-            resources.ApplyResources(this.block2Edit, "block2Edit");
             this.block2Edit.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.block2Edit, "block2Edit");
             this.block2Edit.Name = "block2Edit";
             this.block2Edit.Validating += new System.ComponentModel.CancelEventHandler(this.block0Edit_Validating);
             // 
@@ -513,9 +505,9 @@
             // 
             // richTextBox1
             // 
-            resources.ApplyResources(this.richTextBox1, "richTextBox1");
             this.richTextBox1.BackColor = System.Drawing.Color.AliceBlue;
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.richTextBox1, "richTextBox1");
             this.richTextBox1.ForeColor = System.Drawing.Color.Black;
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
@@ -527,6 +519,14 @@
             this.tableLayoutPanel1.Controls.Add(this.groupBox3, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.groupBox2, 1, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            // 
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            resources.ApplyResources(this.Column1, "Column1");
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // s50BindingSource
             // 
@@ -542,7 +542,6 @@
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MainMenuStrip = this.menuStrip1;
-            this.MaximizeBox = false;
             this.Name = "FormHTool";
             this.Load += new System.EventHandler(this.FormHTool_Load);
             this.menuStrip1.ResumeLayout(false);
@@ -584,7 +583,6 @@
         private System.Windows.Forms.ToolStripMenuItem 检查全卡ToolStripMenuItem;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.BindingSource s50BindingSource;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label labelCurSec;
@@ -624,5 +622,6 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
     }
 }

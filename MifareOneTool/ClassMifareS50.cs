@@ -206,16 +206,16 @@ namespace MifareOneTool
         }
         public int Verify()
         {
-            /* 检验该块内容是否合法
-             * 0块：检查BCC
-             * 非0块：检查访问控制
-             * ********
-             * 0000：正常
-             * 0001：BCC错
-             * 0010：访问控制无效
-             * 0100：访问控制损坏
-             * 
-             */
+            /* Check if the content of the block is legal
+               * 0 block: check the BCC
+               * Non-0 block: check access control
+               * ********
+               * 0000: Normal
+               * 0001: BCC error
+               * 0010: Access control invalid
+               * 0100: Access control corrupt
+               * 
+               */
             int retCode = 0;
             if (this._isSector0)
             {
